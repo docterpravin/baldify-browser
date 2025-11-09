@@ -1,0 +1,27 @@
+body {
+  font-family: Inter, Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 960px;
+  margin: 24px auto;
+  padding: 16px;
+}
+
+button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  background: #0070f3;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
