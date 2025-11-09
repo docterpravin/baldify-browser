@@ -1,11 +1,7 @@
-import '../styles.css';
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
-}
 // pages/_app.js
 
-// ✅ Correct path (since styles.css is in project root)
-import '../styles.css';
+// ✅ Correct import path (global CSS inside /styles)
+import '../styles/global.css';
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
